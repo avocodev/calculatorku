@@ -1,5 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Patrick Hand", sans-serif;
+  height: 100vh;
+}
+
+.welcome-page-main {
+  width: 80vw;
+  margin: 130px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.welcome-icon {
+  position: relative;
+}
+
+.welcome-background-color {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #aa78ff;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip-message {
+  position: relative;
+}
+
+.tooltip-message > p {
+  position: relative;
+  top: 45px;
+  left: 25px;
+}
+
+.start-button {
+  width: 103px;
+  height: 36px;
+  border: none;
+  background-color: #aa78ff;
+  color: white;
+  margin: 0 auto;
+  font-family: inherit;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
 }

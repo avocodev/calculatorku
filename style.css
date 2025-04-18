@@ -15,11 +15,6 @@ body {
 .welcome-page-main {
   width: 80vw;
   margin: 130px auto;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
 }
 
 .welcome-icon {
@@ -43,9 +38,10 @@ body {
 }
 
 .tooltip-message > p {
-  position: relative;
-  top: 45px;
-  left: 25px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(3%, -80%);
 }
 
 .start-button {
@@ -54,11 +50,15 @@ body {
   border: none;
   background-color: #aa78ff;
   color: white;
-  margin: 0 auto;
   font-family: inherit;
   font-size: 18px;
   border-radius: 6px;
   cursor: pointer;
+
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  transform: translate(5%, -10%);
 }
 
 .calculator-main {
